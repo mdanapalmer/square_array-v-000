@@ -12,5 +12,5 @@
 
 def square_array(array)
   answer = []
-  array. {|square| answer << (square ** 2)}
+  array.each {|square| answer << (square ** 2)}
 end
