@@ -12,5 +12,5 @@
 
 def square_array(array)
   answer = []
-  array.map {|square} answer << square ** 2}
+  array.map {|square| answer << square ** 2}
 end
